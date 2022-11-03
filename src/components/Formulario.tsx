@@ -20,7 +20,8 @@ export default function Formulario(props: FormularioProps){
             somenteLeitura
             texto="Codigo" 
              valor={id}
-             className = "mb-5"/> 
+             className = "mb-5"
+             /> 
         ) : false}
 
         <Entrada
@@ -34,6 +35,7 @@ export default function Formulario(props: FormularioProps){
         tipo= "number"
         valor={idade}
         valorMudou={setIdade}
+        
         
         />
         <div className="flex justify -end mt-7">
